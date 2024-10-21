@@ -1,0 +1,109 @@
+/* h6{
+    color:rgb(198, 35, 152);
+    font-size: 40px;
+}
+.lo{
+    background-image: url("/public//images/WhatsApp\ Image\ 2024-10-02\ at\ 13.56.17_8ba8b0a7.jpg");
+    
+    
+}
+.head{
+    background-image: url(/public/images/WhatsApp\ Image\ 2024-10-02\ at\ 13.56.17_8ba8b0a7.jpg);
+    
+} */
+
+/* Styling for the top bar */
+
+
+
+
+
+
+
+
+.navbar{
+    height: 51px;
+}
+.he{
+    color:rgb(252, 252, 250);
+    font-size: 80px;
+    margin-right: 180px;
+}
+.fas fa-map-marker-alt{
+    margin-right: 3px;
+}
+
+
+.top-bar {
+    background-color: #ff4d4f; /* Red background for top bar */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    
+    font-size: 14px;
+
+    
+  }
+  
+  .top-bar .contact-info {
+    display: flex;
+    gap: 200px;
+
+    
+  
+  }
+  
+  /* Main navbar styling */
+  .main-nav {
+    /* background-color: #f8f9fa; Light background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    
+    background-image: url("/public/images/logo.jpg");
+    /* z-index: 1; */
+  }
+  logo{
+    background-image: url("/public/images/logo.jpg");
+    /* background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 30px;
+  height: 30px; */
+  
+  
+  }
+  
+  .main-nav .logo img {
+    height: 40px; /* Adjust based on logo size */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .get-quote-btn {
+    background-color: #00cc99; /* Button color */
+    color: rgb(233, 227, 227);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .get-quote-btn:hover {
+    background-color: #009977;
+  }
