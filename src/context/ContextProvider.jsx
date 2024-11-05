@@ -9,8 +9,8 @@ const ShowContextProvider = ({ children }) => {
     const fetchdata = async () => {
       try {
         const data = await getSiteData();
-        setSiteData(data.SiteData); // Make sure `SiteData` exists in the Firebase response
-        console.log("Data from Firebase:", data.SiteData); // Log data here after it is fetched
+        setSiteData(data.siteData); // Make sure `SiteData` exists in the Firebase response
+        console.log("Data from Firebase:", data.siteData); // Log data here after it is fetched
       } catch (error) {
         console.error("Error fetching site data:", error);
       }

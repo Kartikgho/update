@@ -10,13 +10,13 @@ import {  getDoc,doc} from 'firebase/firestore';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBXxLr2dG_9ouIKutQz0P68CUA0a2no6e8",
-  authDomain: "school-b7ba8.firebaseapp.com",
-  projectId: "school-b7ba8",
-  storageBucket: "school-b7ba8.appspot.com",
-  messagingSenderId: "575529125234",
-  appId: "1:575529125234:web:8d41b15fe19f5d404dc9eb",
-  measurementId: "G-NVBSQMY6YR"
+    apiKey: "AIzaSyBzH0v6igVadt8Fy9KXGpmZ5TxN7kMZn04",
+    authDomain: "testing-king-f4bc5.firebaseapp.com",
+    projectId: "testing-king-f4bc5",
+    storageBucket: "testing-king-f4bc5.appspot.com",
+    messagingSenderId: "401822606909",
+    appId: "1:401822606909:web:9ce11aae80adffea95ec54",
+    measurementId: "G-8RPW8JHC9Z"
 };
 
 // Initialize Firebase
@@ -27,7 +27,7 @@ const deb =getFirestore(app);
 // export {deb}
 const getSiteData= async()=>{
     try {
-        const id="www.educator.in"
+        const id="www.ascent.in"
         const listRef=doc(deb,"sites",id);
         const snapshot=await getDoc(listRef);
         const listData=snapshot.data()

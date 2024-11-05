@@ -38,21 +38,21 @@ const Contact = () => {
             ></iframe>
           </div>
           <div className="right row">
-            <h1>{siteData?.Academic?.exam_sechdule} Contact Us</h1>
+            <h1> Contact Us</h1>
             <p>We're open for any suggestion or just to have a chat</p>
 
             <div className="items grid2">
               <div className="box">
                 <h4>ADDRESS:</h4>
-                <p>H Block(Newtown), Action Area I, Newtown, Chakpachuria, New Town, West Bengal 700135</p>
+                <p>{siteData?.contactUs.location||"H Block(Newtown), Action Area I, Newtown, Chakpachuria, New Town, West Bengal 700135"}</p>
               </div>
               <div className="box">
                 <h4>EMAIL:</h4>
-                <p>kartikghosh2004@gmail.com</p>
+                <p>{siteData?.contactUs.email}</p>
               </div>
               <div className="box">
                 <h4>PHONE:</h4>
-                <p>+91 7098628821</p>
+                <p>{siteData?.contactUs.phoneNumber}</p>
               </div>
             </div>
 
